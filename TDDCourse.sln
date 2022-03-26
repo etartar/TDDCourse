@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDCourse.Tests", "tests\TD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDCourse.Calculator", "src\TDDCourse.Calculator\TDDCourse.Calculator.csproj", "{52DBEC11-BAD9-4136-8091-D19E8F2927EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCourse.NUnit.Tests", "tests\TDDCourse.NUnit.Tests\TDDCourse.NUnit.Tests.csproj", "{04A3D6E7-BBE5-4675-9516-44D9F136D47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDCourse.NUnit.Tests", "tests\TDDCourse.NUnit.Tests\TDDCourse.NUnit.Tests.csproj", "{04A3D6E7-BBE5-4675-9516-44D9F136D47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCourse.DvdLibrary", "src\TDDCourse.DvdLibrary\TDDCourse.DvdLibrary.csproj", "{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCourse.DvdLibrary.Test", "TDDCourse.DvdLibrary.Test\TDDCourse.DvdLibrary.Test.csproj", "{DCF90A16-354A-4B75-A575-FA408FB73AD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{04A3D6E7-BBE5-4675-9516-44D9F136D47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04A3D6E7-BBE5-4675-9516-44D9F136D47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04A3D6E7-BBE5-4675-9516-44D9F136D47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF90A16-354A-4B75-A575-FA408FB73AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF90A16-354A-4B75-A575-FA408FB73AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF90A16-354A-4B75-A575-FA408FB73AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF90A16-354A-4B75-A575-FA408FB73AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 		{75096D24-3F43-4F06-9921-1FB4AB73458C} = {82378BB7-307D-4886-90AF-A71A0E807FE3}
 		{52DBEC11-BAD9-4136-8091-D19E8F2927EA} = {60A9E2EA-FB2D-494C-A562-C2F6350338EA}
 		{04A3D6E7-BBE5-4675-9516-44D9F136D47E} = {82378BB7-307D-4886-90AF-A71A0E807FE3}
+		{38E8FD10-2C86-4B5F-9EA4-1C46F12B678D} = {60A9E2EA-FB2D-494C-A562-C2F6350338EA}
+		{DCF90A16-354A-4B75-A575-FA408FB73AD5} = {82378BB7-307D-4886-90AF-A71A0E807FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {133CE591-6595-49DD-AC8D-09322C7E6D25}

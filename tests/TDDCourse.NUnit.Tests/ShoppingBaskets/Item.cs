@@ -1,4 +1,4 @@
-﻿namespace TDDCourse.NUnit.Tests
+﻿namespace TDDCourse.NUnit.Tests.ShoppingBaskets
 {
     public class Item
     {
