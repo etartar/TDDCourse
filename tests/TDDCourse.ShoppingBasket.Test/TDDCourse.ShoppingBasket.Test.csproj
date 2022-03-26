@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\TDDCourse.DvdLibrary\TDDCourse.DvdLibrary.csproj" />
+    <ProjectReference Include="..\..\src\TDDCourse.ShoppingBasket\TDDCourse.ShoppingBasket.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,10 +1,9 @@
-using System;
 using TDDCourse.Calculator;
 using Xunit;
 
 namespace TDDCourse.Tests
 {
-    public class UnitTest1
+    public class SalaryCalculatorTest
     {
         [Fact]
         public void Test1()

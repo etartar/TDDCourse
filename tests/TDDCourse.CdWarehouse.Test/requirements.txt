@@ -1,0 +1,17 @@
+﻿Customers can buy CDs, searching on the title and the artist.
+Record labels send batches of CDs to the warehouse.
+Customers can only order titles that are in stock.
+
+
+Buy a CD
+X Enough stock - quantity bought deducted from stock count
+X Not enough stock - throw an exception ?
+
+Search for a CD
+* CD is in catalogue - CD is returned
+* CD is not in catalogue - return nothing
+
+Receive batch of CDs
+* Batch of a single CD that's in catalogue - add copies to that CD stock count
+* Not in catalogue - add CD to catalogue, and add copies to stock count
+* Batch of multiple CDs - CDs not in catalogue are added, and copies add to stock count for each

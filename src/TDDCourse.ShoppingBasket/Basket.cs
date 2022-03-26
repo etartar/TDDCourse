@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace TDDCourse.NUnit.Tests.ShoppingBaskets
+namespace TDDCourse.ShoppingBasket
 {
     public class Basket
     {

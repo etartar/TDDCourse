@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
+using TDDCourse.ShoppingBasket;
 
 namespace TDDCourse.NUnit.Tests.ShoppingBaskets
 {
@@ -12,7 +13,7 @@ namespace TDDCourse.NUnit.Tests.ShoppingBaskets
 
             Assert.AreEqual(0.0, basket.Total);
         }
-        
+
         [Test]
         public void TotalOfSingleItem()
         {
